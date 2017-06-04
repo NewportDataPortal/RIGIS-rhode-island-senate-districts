@@ -1,0 +1,375 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: U.S. Department of Commerce, U.S. Census Bureau, Geography Division
+      Publication_Date: 20140409
+      Title: Rhode Island Senate Districts; senateDist13r2
+      Edition: 2013r2
+      Geospatial_Data_Presentation_Form: vector digital data
+      Other_Citation_Details:
+        Suggested bibliographic reference:
+        RIGIS, 2014.  Rhode Island Senate Districts; senateDist13r2.  Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 16 September 2014).
+      Online_Linkage: http://www.rigis.org
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Rhode Island Geographic Information System (RIGIS)
+          Publication_Date: 1993
+          Title: Rhode Island Geographic Information System (RIGIS) Data Distribution System
+          Online_Linkage: http://www.rigis.org
+  Description:
+    Abstract: Rhode Island General Assembly Senate Districts implemented for the 2012 election cycle.  This dataset is a modified version of the source data that are produced and distributed by the U.S. Census Bureau.  It has been clipped to the Rhode Island coastline for cartographic purposes, and reprojected to the Rhode Island State Plane (foot) coordinate system for ease of use.
+    Purpose: In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line Shapefiles.
+    Supplemental_Information: The TIGER/Line shapefiles and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line shapefile is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. State Legislative Districts (SLDs) are the areas from which members are elected to State legislatures. The SLDs embody the upper (senate) and lower (house) chambers of the State legislature. Nebraska has a unicameral legislature and the District of Columbia has a single council, both of which the Census Bureau treats as upper-chamber legislative areas for the purpose of data presentation; there are no data by SLDL for either Nebraska or the District of Columbia. A unique three-character census code, identified by State participants, is assigned to each SLD within a State. In Connecticut, Illinois, Louisiana, Maine, Maryland, Massachusetts, Michigan, Ohio, and Puerto Rico, the Redistricting Data Program (RDP) participant did not define the SLDs to cover all of the State or State equivalent area. In these areas with no SLDs defined, the code "ZZZ" has been assigned, which is treated as a single SLD for purposes of data presentation. The boundaries of the 2012 State legislative districts were provided by State-level participants through the Redistricting Data Program (RDP) and reflect the districts used to elect members in or prior to the November 2012 election.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20111001
+        Ending_Date: 20120901
+    Currentness_Reference: Publication Date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -71.896602
+      East_Bounding_Coordinate: -71.117444
+      North_Bounding_Coordinate: 42.018859
+      South_Bounding_Coordinate: 41.145927
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Categories
+      Theme_Keyword: boundaries
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Polygon
+      Theme_Keyword: State or equivalent entity
+      Theme_Keyword: Legislative District
+    Place:
+      Place_Keyword_Thesaurus: ANSI INCITS 38:2009 (Formerly FIPS 5-2), ANSI INCITS 31:2009 (Formerly FIPS 6-4),ANSI INCITS 454:2009 (Formerly FIPS 8-6), ANSI INCITS 455:2009(Formerly FIPS 9-1), ANSI INCITS 446:2008 (Geographic Names Information System (GNIS))
+      Place_Keyword: RI
+      Place_Keyword: United States
+      Place_Keyword: U.S.
+      Place_Keyword: 44
+      Place_Keyword: Rhode Island
+      Place_Keyword: State or Equivalent Entity
+  Access_Constraints: None
+  Use_Constraints:
+    The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau. These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source. The boundary information in the TIGER/Line Shapefiles are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.
+    This dataset is provided 'as is.’  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+
+    Please acknowledge both RIGIS and the primary producer(s) of this dataset in any derived products.  Versions of the RIGIS logo suitable for both printed and web-based products are available at http://www.rigis.org/logos.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Rhode Island Environmental Data Center
+        Contact_Person: Greg Bonynge
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: RI
+        Postal_Code: 02881
+      Contact_Voice_Telephone: 401-874-2180
+      Contact_Electronic_Mail_Address: greg@edc.uri.edu
+      Contact_Instructions: email preferred
+  Native_Data_Set_Environment: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3143
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Accurate against Federal Information Processing Series (FIPS), FIPS Publication 6-4, and FIPS-55 at the 100% level for the codes and base names. The remaining attribute information has been examined but has not been fully tested for accuracy.
+  Logical_Consistency_Report: The Census Bureau performed automated tests to ensure logical consistency and limits of shapefiles. Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area. All polygons are tested for closure. The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database. Standard geographic codes, such as FIPS codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts are used when encoding spatial entities. The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files. Most of the codes for geographic entities except states, counties, urban areas, Core Based Statistical Areas (CBSAs), American Indian Areas (AIAs), and congressional districts were provided to the Census Bureau by the USGS, the agency responsible for maintaining FIPS 55. Feature attribute information has been examined but has not been fully tested for consistency. For the TIGER/Line Shapefiles, the Point and Vector Object Count for the G-polygon SDTS Point and Vector Object Type reflects the number of records in the shapefile attribute table. For multi-polygon features, only one attribute record exists for each multi-polygon rather than one attribute record per individual G-polygon component of the multi-polygon feature. TIGER/Line Shapefile multi-polygons are an exception to the G-polygon object type classification. Therefore, when multi-polygons exist in a shapefile, the object count will be less than the actual number of G-polygons.
+  Completeness_Report: Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database at the time the TIGER/Line Shapefiles were created.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Department of Commerce, U.S. Census Bureau, Geography Division
+          Publication_Date: unpublished material
+          Title: Census MAF/TIGER database
+      Type_of_Source_Media: onLine
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 20111001
+            Ending_Date: 20120901
+        Source_Currentness_Reference: Publication Date
+      Source_Citation_Abbreviation: MAF/TIGER
+      Source_Contribution: All line segments
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator:
+            U.S. Department of Commerce, U.S. Census Bureau, Geography
+            Division
+          Publication_Date: rd13
+          Title: TIGER/Line Shapefile, rd13,  state, Rhode Island, Current State Legislative District (SLD) Upper Chamber
+          Edition: rd13
+          Geospatial_Data_Presentation_Form: vector digital data
+          Online_Linkage: http://www2.census.gov/geo/tiger/TIGERrd13/SLDU/tl_rd13_44_sldu.zip
+      Type_of_Source_Media: digital vector data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 201110
+            Ending_Date: 201209
+        Source_Currentness_Reference: Publication Date
+      Source_Citation_Abbreviation: tl_rd13_44_sldu
+      Source_Contribution: spatial features and selected attribute data
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Department of Commerce, U.S. Census Bureau, Geography Division
+          Publication_Date: 20130123
+          Title: Rhode Island Senate Districts; senateDist13
+          Edition: 2013
+          Geospatial_Data_Presentation_Form: vector digital data
+          Other_Citation_Details:
+            Suggested bibliographic reference:
+            RIGIS, 2013.  Rhode Island Senate Districts; senateDist13.  Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 6 February 2013).
+          Online_Linkage: http://www.rigis.org
+          Larger_Work_Citation:
+            Citation_Information:
+              Originator: Rhode Island Geographic Information System (RIGIS)
+              Publication_Date: 1993
+              Title: Rhode Island Geographic Information System (RIGIS) Data Distribution System
+              Online_Linkage: http://www.rigis.org
+      Type_of_Source_Media: vector digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 20111001
+            Ending_Date: 20120901
+      Source_Citation_Abbreviation: senateDist13
+      Source_Contribution: spatial and tabular data
+    Process_Step:
+      Process_Description: TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state, county, and entity. Census MAF/TIGER data for all of the aforementioned geographic entities are then distributed among the shapefiles each containing attributes for line, polygon, or landmark geographic data.
+      Source_Used_Citation_Abbreviation: MAF/TIGER
+    Process_Step:
+      Process_Description: Source TIGER/Line shapefile for the State of Rhode Island downloaded from the U.S. Census Bureau via http://www2.census.gov/geo/tiger/TIGERrd13_st/44.  Data reprojected to the NAD 83 Rhode Island state plane (foot) coordinate system.  "State, Coastline, Town Boundaries" dataset acquired from RIGIS, dissolved to create a single multipart dataset that represents the inland state boundary and coastline.  Reprojected TIGER/Line shapefiles clipped using this state boundary dataset, improving it for cartographic purposes.  Deleted ancillary attribute fields before contributing this dataset to RIGIS.
+      Source_Used_Citation_Abbreviation: tl_rd13_44_sldu
+      Process_Date: 20130123
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: University of Rhode Island Environmental Data Center
+            Contact_Person: Greg Bonynge
+          Contact_Address:
+            Address_Type: mailing and physical
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: RI
+            Postal_Code: 02881
+          Contact_Voice_Telephone: 401-874-2180
+          Contact_Electronic_Mail_Address: greg@edc.uri.edu
+          Contact_Instructions: email preferred
+    Process_Step:
+      Process_Description:
+        Added new field to the dataset, "DIST_NUM", to represent the number of the district without any associated text (as seen in the "NAMELSAD" field) and without any preceeding '0' as seen in the "SLDLST" field. This field was created for labeling purpose.
+        Metadata also updated to reflect this new field.
+      Source_Used_Citation_Abbreviation: senateDist13
+      Process_Date: 20140409
+      Source_Produced_Citation_Abbreviation: houseDist13r2
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: University of Rhode Island Environmental Data Center
+            Contact_Person: Erica Tefft
+          Contact_Position: Research Associate
+          Contact_Address:
+            Address_Type: mailing and physical
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: RI
+            Postal_Code: 02881
+          Contact_Voice_Telephone: 401-874-5054
+          Contact_Electronic_Mail_Address: erica_tefft@mail.uri.edu
+          Contact_Instructions: Email preferred.
+    Process_Step:
+      Process_Description: Data contributed to RIGIS by the University of Rhode Island Environmental Data Center.  Metadata were adapted, minor updates made to content, RIGIS distribution information added.  Credit for primary source metadata authorship remains with the U.S. Census Bureau.
+      Process_Date: 20140409
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: University of Rhode Island Environmental Data Center
+            Contact_Person: Erica Tefft
+          Contact_Position: Research Associate
+          Contact_Address:
+            Address_Type: mailing and physical
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: RI
+            Postal_Code: 02881
+          Contact_Voice_Telephone: 401-874-5054
+          Contact_Electronic_Mail_Address: erica_tefft@mail.uri.edu
+          Contact_Instructions: Email preferred.
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: Federal Information Processing Series (FIPS), ANSI, and feature names.
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 38
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: NAD 1983 StatePlane Rhode Island FIPS 3800 Feet
+        Transverse_Mercator:
+          Scale_Factor_at_Central_Meridian: 0.99999375
+          Longitude_of_Central_Meridian: -71.5
+          Latitude_of_Projection_Origin: 41.08333333333334
+          False_Easting: 328083.3333333333
+          False_Northing: 0.0
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000000007286382608384659
+          Ordinate_Resolution: 0.000000007286382608384659
+        Planar_Distance_Units: foot_us
+    Geodetic_Model:
+      Horizontal_Datum_Name: D North American 1983
+      Ellipsoid_Name: GRS 1980
+      Semi-major_Axis: 6378137.0
+      Denominator_of_Flattening_Ratio: 298.257222101
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: senateDist12
+      Entity_Type_Definition: Current State Legislative District (SLD) (Upper Chamber) State-based
+      Entity_Type_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: Esri
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: Esri
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: STATEFP
+      Attribute_Definition: Current state Federal Information Processing Series (FIPS) code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: INCITS.38-2009, Codes for the Identification of the States, the District of Columbia, Puerto Rico, and the Insular Areas of the United States (Formerly FIPS 5-2)
+          Codeset_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: SLDUST
+      Attribute_Definition: Current state legislative district (upper chamber) code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Any ASCII alphabetic or numeric character combination plus hyphens from one to three characters
+          Enumerated_Domain_Value_Definition: State-assigned legislative district (upper chamber) code
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ZZZ
+          Enumerated_Domain_Value_Definition: State legislative district (upper chamber) not defined
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: GEOID
+      Attribute_Definition: State legislative district upper chamber identifier; a concatenation of Current state FIPS code and state legislative district upper chamber code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: INCITS.38-2009, Codes for the Identification of the States, the District of Columbia, Puerto Rico, and the Insular Areas of the United States (Formerly FIPS 5-2), and the state legislative district upper chamber code found in SLDUST
+          Codeset_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: NAMELSAD
+      Attribute_Definition: Current name and the translated legal/statistical area description for the state legislative district (upper chamber)
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Current name and the translated legal/statistical area description codes that appear in LSAD
+    Attribute:
+      Attribute_Label: LSAD
+      Attribute_Definition: Current legal/statistical area description code for state legislative district (upper chamber)
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: L2
+          Enumerated_Domain_Value_Definition: Senatorial District (suffix)
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 00
+          Enumerated_Domain_Value_Definition: Blank
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+        Enumerated_Domain:
+          Enumerated_Domain_Value: LU
+          Enumerated_Domain_Value_Definition: State Senate District (prefix)
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+        Enumerated_Domain:
+          Enumerated_Domain_Value: L1
+          Enumerated_Domain_Value_Definition: Ward (prefix)
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 07
+          Enumerated_Domain_Value_Definition: District (suffix)
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+        Enumerated_Domain:
+          Enumerated_Domain_Value: L8
+          Enumerated_Domain_Value_Definition: State Senate District (suffix)
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: LSY
+      Attribute_Definition: Legislative session year
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 2000
+          Range_Domain_Maximum: 2999
+    Attribute:
+      Attribute_Label: DIST_NUM
+      Attribute_Definition: Senate district number.
+      Attribute_Definition_Source: URI EDC
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Each value is unique to each district and is represented by whole numbers.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Rhode Island Environmental Data Center
+        Contact_Person: Greg Bonynge
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: RI
+        Postal_Code: 02881
+      Contact_Voice_Telephone: 401-874-2180
+      Contact_Electronic_Mail_Address: greg@edc.uri.edu
+      Contact_Instructions: email preferred
+  Distribution_Liability: This dataset is provided 'as is.'  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Esri shapefile
+        File_Decompression_Technique: ZIP
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://www.rigis.org
+    Fees: No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.
+Metadata_Reference_Information:
+  Metadata_Date: 20130201
+  Metadata_Review_Date: 20140409
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Rhode Island Environmental Data Center
+        Contact_Person: Greg Bonynge
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: RI
+        Postal_Code: 02881
+      Contact_Voice_Telephone: 401-874-2180
+      Contact_Electronic_Mail_Address: greg@edc.uri.edu
+      Contact_Instructions: email preferred
+  Metadata_Standard_Name: FGDC Content Standard for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
